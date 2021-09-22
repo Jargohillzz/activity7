@@ -616,7 +616,10 @@ footer .links a:hover {
 
 /*mobile mode*/
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+  body {
+    min-width: 365px;
+  }
   header,
   .home-section .home-text,
   .help-section .help-wrap,
